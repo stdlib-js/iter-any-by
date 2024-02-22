@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterAnyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any-by@deno/mod.js';
+import iterAnyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any-by@v0.2.1-deno/mod.js';
 ```
 
 #### iterAnyBy( iterator, predicate\[, thisArg] )
@@ -139,7 +139,7 @@ var n = ctx.count;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
-import iterAnyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any-by@deno/mod.js';
+import iterAnyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any-by@v0.2.1-deno/mod.js';
 
 function threshold( r ) {
     return ( r > 0.95 );
